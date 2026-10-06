@@ -9,7 +9,7 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-use std::{mem, ops};
+use std::ops;
 
 const DIY_SIGNIFICAND_SIZE: isize = 64;
 const DP_SIGNIFICAND_SIZE: isize = 52;
