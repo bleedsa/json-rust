@@ -1,6 +1,6 @@
 use std::ops::{Index, IndexMut, Deref};
 use std::convert::TryInto;
-use std::{fmt, mem, usize, u8, u16, u32, u64, isize, i8, i16, i32, i64, f32};
+use std::{fmt, mem};
 use std::io::{self, Write};
 
 use crate::{Result, Error};
